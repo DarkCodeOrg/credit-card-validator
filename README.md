@@ -18,6 +18,7 @@ if the sum is divisible by 10 then the credit card number is valid
 small example ::
 
 4  5  6  7  1  2  3  4   5  6  7  8   9  1  2  9   (entered credit card number)
+
 8    12     2     6     10    14     18     4   (first line)
 
 
