@@ -20,9 +20,8 @@ int main()
              fgets(creditCardNumber, 17, stdin);
                                                           
     convertSTRtoINTarr(creditCardNumber,new_creditcard_number);        
-    
     // the above ^ function was used to convert the string input to integer array for making accessibility of each element in the string as a integer possible         
-            
+
     // below part is just mathematical calculation
     // checkout the README.md file to know the algorithm
 
@@ -65,7 +64,7 @@ int main()
             
              else{
                  printf("the credit card is invalid !");
-                 printf("remember not to include spaces while entering the credit card number");
+                 printf("remember not to include spaces while entering the credit card number ");
             }
 
 
@@ -75,10 +74,9 @@ int main()
 
 void convertSTRtoINTarr(char str[16],int m[16])
 {
+    printf("%d",m[1]*10);          // TODO this is for testing remove this later 
     for (int i = 0; i <= 16; i++){
         
         m[i] = m[i]*10 + (str[i] - 48);
     }
-    
 }
-
